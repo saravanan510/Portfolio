@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+$h1 : 42px;
+body{
+    background: hsla(234, 4%, 6%, 1);
+}
+h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: hsla(0, 0%, 100%, 0.3);
+    }
+h3{
+    font-size: 32px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+p{
+    font-size: 14px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.8);
+    line-height: 160%;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.tag-line{
+    font-size: 16px;
+    line-height: 160%;
+    color: hsla(0, 0%, 100%, 0.8);
+    width: 80%;
+    margin: 24px auto 80px;
+}
+button{
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: hsla(0, 0%, 0%, 1);
+    background-color: #FFFFFF;
+    padding: 16px 48px;
+    border-radius: 70px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    ul{
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        li{
+            padding: 0px 20px;                       
+        }
+    }
+}
+#Banner{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    h1{
+        font-size: $h1;
+        font-weight: 600;
+        line-height: 138%;
+        background: linear-gradient(180deg, #FFFFFF -75.86%, rgba(255, 255, 255, 0) 183.19%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-emphasis-color: transparent;
+    }
+    p{
+       color: hsla(0, 0%, 100%, 0.705);
+       font-size: 16px;
+       font-weight: 400;
+       line-height: 160%;
+    }
+    .arrow{  
+        text-align: right;
+        display: inline-block; 
+        position: absolute;        
+        p{
+        padding: 8px 24px;
+        background: hsla(0, 0%, 16%, 1);
+        border-radius: 50px;
+        margin: -12px 32px 0 0;
+        font-size: 14px;
+        letter-spacing: 0.4px;
+        }
+        i{
+            font-size: 28px;
+            color: hsla(0, 0%, 16%, 1);
+        }
+    }
+    .ui{
+        top: 300px;
+        left: 420px;
+    }
+    .ux{
+        top: 500px;
+        right: 300px;
+    }
+    .product-design{
+        top: 720px;
+        left: 460px;
+    }
+
+    .gradient{
+        height: 120px;
+        width: 120px;
+        background: #e6e6e6;
+        filter: blur(220px);
+        position: absolute;   
+        z-index: -1;     
+    }
+    .one{
+        top: 0;
+        left: 0;        
+    }
+    .two{
+        bottom: 0;
+        right: 0;
+    }
+    // .cursor{
+    //     position: relative;
+    //     top: 0;
+    //    .skill-cursor{
+    //     background-color: hsla(0, 0%, 16%, 1);
+    //     border-radius: 50px;
+    //     padding: 12px 24px;
+    //    }
+    // }
+}
+#Company-Logo{
+    background-color: hsla(228, 4%, 4%, 1);
+    .Logo-Box{
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+#About-Us{
+    padding: 80px 0;
+    background-color: hsla(234, 8%, 12%, 1);
+    .skill-card{
+        background-color:hsla(240, 3%, 6%, 1);       ;
+        padding: 24px;
+        border-radius: 20px;
+        width: 400px;
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 168%;
+            color: hsla(0, 0%, 100%, 0.6);
+        }
+    }
+}
+#Case-Studies{
+    padding: 80px 0;
+    .case-study{
+        background-color: hsla(0, 0%, 10%, 1);
+        border-radius: 20px;
+        padding: 0 36px;
+        .left-content{
+            padding: 36px 36px 36px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .bottom-link a{
+                text-decoration: none;
+                display: flex; 
+                align-items: center;
+                i{
+                    color: #FFFFFF;
+                }            
+            }
+        }
+    }
+}
+#footer{
+    padding: 80px 0;
+    background-color: hsla(234, 8%, 12%, 1);
+    h2{
+        color: #FFFFFF;
+    }
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+        display: inline;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.6);
+        a {
+            color: rgba(255, 255, 255, 1);
+            text-decoration: none;
+          }
+        a:hover {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+          }
+      }      
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    content: "/\00a0";
+}
